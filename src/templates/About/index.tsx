@@ -1,0 +1,25 @@
+import LinkWrapper from 'components/LinkWrapper'
+import { CloseOutline } from '@styled-icons/evaicons-outline/CloseOutline'
+
+import * as S from './styles'
+
+const AboutTemplate = () => (
+  <S.Content>
+    <LinkWrapper href="/">
+      <CloseOutline size="32" aria-label="Home" />
+    </LinkWrapper>
+
+    <S.Heading>My trips</S.Heading>
+
+    <S.Body>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        voluptatem corrupti est iusto accusantium excepturi deleniti a libero
+        quaerat quae reiciendis dolorum ipsam mollitia error debitis nisi,
+        dolorem quasi reprehenderit.
+      </p>
+    </S.Body>
+  </S.Content>
+)
+
+export default AboutTemplate
