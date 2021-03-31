@@ -9,8 +9,8 @@ export default function Home() {
     <>
       <LinkWrapper href="/about">
         <InfoOutline size={32} arial-label="About" />
-        <Map />
       </LinkWrapper>
+      <Map />
     </>
   )
 }
