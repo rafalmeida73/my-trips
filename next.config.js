@@ -7,7 +7,7 @@ module.exports = withPWA({
     dest: 'public',
     disable: !isProd
   },
-  future: {
-    webpack5: true
+  images: {
+    domains: ['media.graphcms.com']
   }
 })
